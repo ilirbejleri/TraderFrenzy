@@ -15,8 +15,8 @@ a new one will appear after 5 more seconds. The same goes for when you buy one, 
 will appear of 5 seconds. When time is up, you can see your score and press SELECT to play again. 
 You can press SELECT at any time in the game to start over.
 
-run
-```
+run:
   make mgba
-```
+to run the game
+
 see https://mgba.io/ for instructions on using a GBA emulator on your machine.
