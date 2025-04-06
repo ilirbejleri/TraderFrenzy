@@ -16,7 +16,7 @@ will appear of 5 seconds. When time is up, you can see your score and press SELE
 You can press SELECT at any time in the game to start over.
 
 run
-```bash
+```
   make mgba
 ```
 see https://mgba.io/ for instructions on using a GBA emulator on your machine.
