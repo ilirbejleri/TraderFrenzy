@@ -70,29 +70,7 @@ submit: clean
 	@rm -f submission.tar.gz
 	@tar --exclude="examples" --exclude="mGBA*" -czvf submission.tar.gz *
 
-.PHONY: maze
-maze: client
-	@echo "[EXECUTE] Running emulator mGBA"
-	@echo "          Please see emulator.log if this fails"
-	@./client examples/maze/Maze.gba
 
-.PHONY: mario
-mario: client
-	@echo "[EXECUTE] Running emulator mGBA"
-	@echo "          Please see emulator.log if this fails"
-	@./client examples/mario/Mario.gba
-
-.PHONY: pong
-pong: client
-	@echo "[EXECUTE] Running emulator mGBA"
-	@echo "          Please see emulator.log if this fails"
-	@./client examples/pong/Pong.gba
-
-.PHONY: sandtris
-sandtris: client
-	@echo "[EXECUTE] Running emulator mGBA"
-	@echo "          Please see emulator.log if this fails"
-	@./client examples/sandtris/Sandtris.gba
 
 .PHONY: clean
 clean:
