@@ -18,5 +18,5 @@ You can press SELECT at any time in the game to start over.
 run
 ```bash
   make mgba
-
+```
 see https://mgba.io/ for instructions on using a GBA emulator on your machine.
