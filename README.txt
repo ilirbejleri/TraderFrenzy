@@ -17,6 +17,6 @@ You can press SELECT at any time in the game to start over.
 
 run:
   make mgba
-to run the game
+to run the game or check out the video demo 
 
 see https://mgba.io/ for instructions on using a GBA emulator on your machine.
